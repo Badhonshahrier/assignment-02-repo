@@ -19,6 +19,7 @@ header {}
     /* margin-bottom: 20px; */
     display: flex;
     justify-content: space-between;
+
 }
 
 .logo {
@@ -126,6 +127,8 @@ align-items: center; */
 
 }
 
+/* navbar section responsive */
+
 @media screen and (max-width:576px) {
     body {
         margin: 0px;
@@ -168,7 +171,7 @@ align-items: center; */
     justify-content: space-between;
     gap: 50px;
 
-    
+
 
 }
 
@@ -230,6 +233,8 @@ align-items: center; */
 
 }
 
+/* banner section responsive */
+
 @media screen and (max-width:576px) {
     .banner-container {
         flex-direction: column-reverse;
@@ -241,12 +246,197 @@ align-items: center; */
 
     .banner {
         padding: 0 20px;
-       
+
         margin-top: 50px;
         text-align: center;
     }
-    .banner-sub-title br{
+
+    .banner-sub-title br {
         display: none;
     }
 
+}
+
+/* card item styles */
+.card-container{
+    display: flex;
+    justify-content: space-between;
+}
+.card-bg-img {
+    background-image: url(../B11-A2-Kids-School/assets/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-bg-img h2 {
+    color: #000;
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 80px 0;
+
+}
+
+.card-1 {
+    border-radius: 18.864px;
+    border: 0.943px solid #DEF5FF;
+    background: linear-gradient(180deg, #DEF5FF 0%, rgba(255, 255, 255, 0.00) 40%), #FFF;
+    box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
+    display: flex;
+    width: 367.805px;
+    /* height: 476.784px; */
+    padding: 52.819px 40.668px 53.762px 40.878px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32.069px;
+}
+
+.card-1 h3 {
+    color: #202020;
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+   }
+   .card-1 p{
+    color: #808080;
+text-align: center;
+font-family: Raleway;
+font-size: 1rem;
+font-weight: 500;
+
+   }
+   .read-more-btn-1{
+    color: #64C8FF;
+text-align: center;
+font-family: Quicksand;
+font-size: 1rem;
+font-weight: 700;
+border: none;
+background-color: white;
+
+   }
+.card-2{
+    border-radius: 18.864px;
+border: 0.943px solid #FFF4DC;
+background: linear-gradient(180deg, #FFF4DC 0%, rgba(255, 255, 255, 0.00) 40%), #FFF;
+box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
+display: flex;
+width: 367.805px;
+/* height: 481.5px; */
+padding: 52.819px 40.668px 53.762px 40.878px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 32.069px;
+
+}
+.card-2 h3{
+    color: #202020;
+text-align: center;
+font-family: Quicksand;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 700;
+
+}
+.card-2 p{
+    color: #808080;
+text-align: center;
+font-family: Raleway;
+font-size: 1rem;
+font-style: normal;
+font-weight: 500;
+
+}
+.read-more-btn-2{
+    color: #F0AA00;
+text-align: center;
+font-family: Quicksand;
+font-size: 1rem;
+font-style: normal;
+font-weight: 700;
+border: none;
+background-color: white;
+
+}
+.card-3{
+    border-radius: 18.864px;
+border: 0.943px solid #F2E8FF;
+background: linear-gradient(180deg, #EEE1FF 0%, rgba(255, 255, 255, 0.00) 40%), #FFF;
+box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
+display: flex;
+width: 367.805px;
+height: 476.784px;
+padding: 52.819px 40.668px 53.762px 40.878px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 32.069px;
+
+
+}
+.card-3 h3{
+    color: #202020;
+text-align: center;
+font-family: Quicksand;
+font-size: 1.5rem;
+font-weight: 700;
+
+}
+.card-3 p{
+    color: #808080;
+text-align: center;
+font-family: Raleway;
+font-size: 1rem;
+font-weight: 500;
+
+}
+.read-more-btn-3{
+    color: #8700FF;
+text-align: center;
+font-family: Quicksand;
+font-size: 1rem;
+font-weight: 700;
+border: none;
+background-color: white;
+
+}
+
+
+
+
+
+@media screen and (max-width:576px) {
+    .card-container{
+        flex-direction: column;
+        padding: 0px 30px;
+        gap: 20px;
+    }
+    .card-1{
+        width: 100%;
+
+    }
+    .card-1 p{
+        padding:0px 50px;
+    }
+    
+    .card-2{
+        width: 100%;
+
+    }
+    .card-2 p{
+        padding:0px 50px;
+    }
+    .card-3{
+        width: 100%;
+
+    }
+    .card-3 p{
+        padding:0px 50px;
+    }
+    
 }
