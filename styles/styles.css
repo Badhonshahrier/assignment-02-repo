@@ -18,22 +18,17 @@ body {
     /* background: var(--White, #F7F7F7); */
 }
 
-/* body {
-    margin: 0 140px;
-    background: var(--White, #F7F7F7);
 
-} */
-
-/* nav bar related styles */
 
 header {
     background-color: var(--White, #F7F7F7);
-    ;
+    
+}
+marquee{
+    font-size:x-large;
+    color:  #FEA301 ;
 }
 
-/* main {
-    background-image: url(../B11-A2-Kids-School/assets/bg.png);
-} */
 
 .navbar {
     margin: 20px 0px;
@@ -283,6 +278,10 @@ align-items: center; */
 
     .banner-img img {
         width: calc(100% - 10px);
+        
+    }
+    marquee{
+        margin-top: 20px;
         
     }
 
@@ -766,6 +765,9 @@ footer {
 
 .footer-logo {
     display: flex;
+    align-items: center;
+    
+    
 }
 
 .footer-link li {
@@ -811,6 +813,7 @@ footer {
     background: #EA4C89;
     padding: 10px;
     width: 40.613px;
+    margin: 0 5px;
 }
 
 .about-link-3 {
@@ -825,6 +828,7 @@ footer {
     background: #DD4B39;
     padding: 10px;
     width: 40.613px;
+    margin: 0 5px;
 }
 
 .footer-keep h4 {
