@@ -282,7 +282,8 @@ align-items: center; */
     }
 
     .banner-img img {
-        width: 420px;
+        width: 100%;
+        
     }
 
 }
@@ -720,21 +721,23 @@ align-items: center; */
 
 
 /* footer section styles */
-footer{
+footer {
     background: #01ACFD;
 }
+
 .footer-container {
-    
+
     display: flex;
     justify-content: space-around;
     align-items: center;
 
     /* margin-top: 130px; */
     margin: 0 140px;
-    
+
     height: 400px;
-  
+
 }
+
 /* footer {
     background: #01ACFD;
     margin: 0;
@@ -768,7 +771,7 @@ footer{
 .footer-link li {
     text-decoration: none;
     list-style: none;
-    }
+}
 
 
 .footer-link .footer-item {
@@ -778,10 +781,11 @@ footer{
     font-weight: 500;
     text-decoration: none;
     gap: 20px;
-    
-    
+
+
 }
-.footer-keep{
+
+.footer-keep {
     margin-bottom: 100px;
 }
 
@@ -799,7 +803,7 @@ footer{
     background: #3B5998;
     padding: 10px;
     width: 40.613px;
-/* height: 40px; */
+    /* height: 40px; */
 }
 
 .about-link-2 {
@@ -828,35 +832,41 @@ footer{
     font-family: Quicksand;
     font-size: 1.6rem;
     margin-bottom: 32px;
-font-weight: 700;
+    font-weight: 700;
 }
-.footer-link .footer-list{
+
+.footer-link .footer-list {
     margin-bottom: 10px;
 }
+
 /* footer section resposnsive */
 @media screen and (max-width:576px) {
-footer{
-    margin: 0;
-    /* width: 100%; */
-    height: 100%;
+    footer {
+        margin: 0;
+        /* width: 100%; */
+        height: 100%;
 
-}
-.footer-container{
-    flex-direction: column;
-    margin: 0;
-    height: 100%;
-    align-items: normal;
-    margin-left: 10px;
-}
-.footer-about{
-    margin-left: 10px;
-    margin-top: 20px;
-}
-.footer-keep{
-    margin-top: 20px;
-    margin-left: 10px;
-}
-.kids-school{
-    margin-left: 10px;
-}
+    }
+
+    .footer-container {
+        flex-direction: column;
+        margin: 0;
+        height: 100%;
+        align-items: normal;
+        margin-left: 10px;
+    }
+
+    .footer-about {
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+    .footer-keep {
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+
+    .kids-school {
+        margin-left: 10px;
+    }
 }
