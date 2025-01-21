@@ -282,6 +282,9 @@ align-items: center; */
     .banner-sub-title br {
         display: none;
     }
+    .banner-img img{
+        width: 100%;
+    }
 
 }
 
@@ -544,10 +547,11 @@ align-items: center; */
 
 .section-bg {
     background-image: url(../B11-A2-Kids-School/assets/bg.png), linear-gradient(0deg, rgba(254, 163, 1, 0.30) 0%, rgba(255, 255, 255, 0.30) 100%);
+    
 
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    /* background-size: cover; */
+    /* background-repeat: no-repeat;
+    background-position: center; */
 }
 
 
@@ -716,10 +720,20 @@ align-items: center; */
 
 
 /* footer section styles */
-body footer {}
+.footer-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+}
+
 
 footer {
     background: #01ACFD;
+    margin: 0;
+    height: 400px;
+    
 }
 
 .footer-logo h6 {
@@ -732,7 +746,7 @@ footer {
 
 }
 
-.footer-logo p {
+.kids-school p {
     color: #FFF;
     font-family: Quicksand;
     font-size: 1.25rem;
@@ -748,3 +762,53 @@ footer {
     width: 82.902px;
     height: 81.652px;
 }
+.footer-link li{
+    text-decoration: none;
+    list-style: none;
+}
+.footer-link a {
+    color: #FFF;
+font-family: Quicksand;
+font-size: 1.25rem;
+font-weight: 500;
+list-style: none;
+text-decoration: none;
+
+}
+.footer-about h5{
+    color: #FFF;
+font-family: Quicksand;
+font-size: 1.6rem;
+font-weight: 700;
+
+}
+.about-link-1{
+    border-radius: 4px;
+background: #3B5998;
+padding: 10px;
+}
+.about-link-2{
+    border-radius: 4px;
+    background: #EA4C89;
+    padding: 10px;
+}
+.about-link-3{
+    border-radius: 4px;
+    background: #1DA1F2;
+    padding: 10px;
+}
+.about-link-4{
+    border-radius: 4px;
+    background: #DD4B39;
+    padding: 10px;
+}
+.footer-keep h4{
+    color: #FFF;
+font-family: Quicksand;
+font-size: 1.6rem;
+margin-bottom: 32px;
+
+font-weight: 700;
+
+}
+
