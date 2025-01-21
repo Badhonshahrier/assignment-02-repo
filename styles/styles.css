@@ -781,6 +781,9 @@ footer{
     
     
 }
+.footer-keep{
+    margin-bottom: 100px;
+}
 
 .footer-about h5 {
     color: #FFF;
@@ -827,6 +830,9 @@ footer{
     margin-bottom: 32px;
 font-weight: 700;
 }
+.footer-link .footer-list{
+    margin-bottom: 10px;
+}
 /* footer section resposnsive */
 @media screen and (max-width:576px) {
 footer{
@@ -848,5 +854,9 @@ footer{
 }
 .footer-keep{
     margin-top: 20px;
+    margin-left: 10px;
+}
+.kids-school{
+    margin-left: 10px;
 }
 }
