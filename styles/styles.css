@@ -15,26 +15,20 @@ body {
 
 .card-bg-img {
     margin: 0 140px;
-    /* background: var(--White, #F7F7F7); */
 }
-
-
 
 header {
     background-color: var(--White, #F7F7F7);
-
 }
 
 marquee {
-    font-size: x-large;
+    font-size: xx-large;
     color: #FEA301;
     margin-top: 20px;
 }
 
-
 .navbar {
     margin: 20px 0px;
-    /* margin-bottom: 20px; */
     display: flex;
     justify-content: space-between;
 
@@ -51,8 +45,6 @@ marquee {
     font-family: Quicksand;
     font-size: 2rem;
     font-weight: 700;
-    /* margin-left: -40px; */
-
 }
 
 header hr {
@@ -79,8 +71,6 @@ header hr {
     width: 197px;
     padding: 10px;
     margin-top: 25px;
-    /* justify-content: center;
-align-items: center; */
     gap: 10px;
     border: none;
     color: #FFF;
@@ -118,8 +108,6 @@ align-items: center; */
     font-family: Quicksand;
     font-size: 1.25rem;
     font-weight: 700;
-    /* text-decoration: none; */
-
 }
 
 .navbar-item-2 a {
@@ -149,9 +137,6 @@ align-items: center; */
 
 @media screen and (max-width:576px) {
 
-    /* body {
-        margin: 0px;
-    } */
     header {
         margin: 0px;
     }
@@ -176,7 +161,6 @@ align-items: center; */
 
     .menu-cart {
         display: block;
-        /* margin-top: ; */
         width: 30px;
         margin-top: 20px;
     }
@@ -241,8 +225,6 @@ align-items: center; */
     border: none;
     background: var(--Black, #111);
     padding: 10px;
-    /* justify-content: center;
-align-items: center; */
     width: 155px;
     gap: 10px;
     color: #FFF;
@@ -279,12 +261,14 @@ align-items: center; */
     }
 
     .banner-img img {
-        width: calc(100% - 10px);
-
-    }
+        width:calc(100% - 20px);
+      margin: 0;
+      margin-left: 10px;
+        }
 
     marquee {
         margin-top: 20px;
+        scroll-behavior: smooth;
 
     }
 
@@ -297,11 +281,6 @@ align-items: center; */
     justify-content: space-between;
 }
 
-/* .card-bg-img {
-    background-image: url(../B11-A2-Kids-School/assets/bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
 
 .card-bg-img h2 {
     color: #000;
@@ -320,7 +299,6 @@ align-items: center; */
     box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
     display: flex;
     width: 367.805px;
-    /* height: 476.784px; */
     padding: 52.819px 40.668px 53.762px 40.878px;
     flex-direction: column;
     justify-content: center;
@@ -364,7 +342,6 @@ align-items: center; */
     box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
     display: flex;
     width: 367.805px;
-    /* height: 481.5px; */
     padding: 52.819px 40.668px 53.762px 40.878px;
     flex-direction: column;
     justify-content: center;
@@ -542,18 +519,10 @@ align-items: center; */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-
-
-
 }
 
 .section-bg {
     background-image: url(../B11-A2-Kids-School/assets/bg.png), linear-gradient(0deg, rgba(254, 163, 1, 0.30) 0%, rgba(255, 255, 255, 0.30) 100%);
-
-
-    /* background-size: cover; */
-    /* background-repeat: no-repeat;
-    background-position: center; */
 }
 
 
@@ -572,23 +541,18 @@ align-items: center; */
     border-radius: 16px 16px 0px 0px;
     position: relative;
     width: 570px;
-
-
 }
 
 .stories-card {
     border-radius: 16px;
     background: #FFF;
     width: 570px;
-    /* height: 630.518px; */
-
 }
 
 .stories-card h6 {
     border-radius: 47.934px;
     background: #3CD8E8;
     display: flex;
-
     padding: 14.38px 18.876px 15.339px 19.174px;
     justify-content: center;
     align-items: center;
@@ -622,8 +586,6 @@ align-items: center; */
     font-style: normal;
     font-weight: 500;
     padding-left: 35px;
-    /* letter-spacing: 1px; */
-
 }
 
 .stories-card-1 {
@@ -688,7 +650,6 @@ align-items: center; */
 
 .btn-container {
     text-align: center;
-    /* margin-top: 80px; */
 }
 
 
@@ -713,8 +674,6 @@ align-items: center; */
 
     }
 
-    .section-bg {}
-
     .stories-card-1 {
         width: 100%;
     }
@@ -736,20 +695,10 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    /* margin-top: 130px; */
     margin: 0 140px;
-
     height: 400px;
 
 }
-
-/* footer {
-    background: #01ACFD;
-    margin: 0;
-    height: 400px;
-
-} */
 
 .footer-logo .footer-heading {
 
@@ -768,7 +717,6 @@ footer {
     font-family: Quicksand;
     font-size: 1.25rem;
     font-weight: 400;
-    /* padding-top: 35px; */
 
 }
 
@@ -777,7 +725,6 @@ footer {
     display: flex;
     align-items: center;
     gap: 10px;
-
     padding-bottom: 30px;
 }
 
@@ -794,8 +741,6 @@ footer {
     font-weight: 500;
     text-decoration: none;
     gap: 20px;
-
-
 }
 
 .footer-keep {
@@ -816,7 +761,6 @@ footer {
     background: #3B5998;
     padding: 10px;
     width: 40.613px;
-    /* height: 40px; */
 }
 
 .about-link-2 {
@@ -858,7 +802,6 @@ footer {
 @media screen and (max-width:576px) {
     footer {
         margin: 0;
-        /* width: 100%; */
         height: 100%;
 
     }
@@ -885,4 +828,5 @@ footer {
     .kids-school {
         margin-left: 10px;
     }
+
 }
